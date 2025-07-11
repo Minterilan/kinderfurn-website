@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kinderfurn.com/sitemap.xml
+
+# Disallow certain files (if any)
+Disallow: /css/
+Disallow: /js/ 
