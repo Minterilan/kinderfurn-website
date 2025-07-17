@@ -1073,7 +1073,30 @@ body {
 }
 
 .outro_services {
-  background: url("../img/services/hero_placeholder.jpg") center / cover no-repeat;
+  background-image: url('../img/Tables/Tables Header.png');
+  background-size: 100% 100%;
+  background-position: center;
+  width: 1800px;
+  height: 600px;
+  max-width: 1800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outro_services .outro__title {
+  color: white;
+  z-index: 2;
+  font-size: 3.5rem;
+}
+
+.outro_services .outro__text {
+  color: white;
+  z-index: 2;
+  font-size: 22px;
+  max-width: 1200px;
+  text-align: center;
 }
 
 /* ************TESTIMONIAL**************** */
@@ -1305,12 +1328,35 @@ body {
   letter-spacing: 0.04em;
   line-height: 110%;
   text-transform: uppercase;
+  margin-top: 0;
+  padding-left: 8px;
+}
+
+.connect-contant__type span {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.connect-contant__type img {
+  vertical-align: top;
+  margin-top: -10px;
 }
 
 .connect-contact__label {
   font-size: 22px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  margin-top: -6px;
+}
+
+.connect-contact__label span {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.connect-contact__label img {
+  vertical-align: top;
+  margin-top: -10px;
 }
 
 .contact__links {
